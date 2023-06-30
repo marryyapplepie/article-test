@@ -1,0 +1,154 @@
+
+/* be-vietnam-pro-100 - latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Be Vietnam Pro';
+    font-style: normal;
+    font-weight: 100;
+    src: url('../fonts/be-vietnam-pro-v11-latin-100.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* be-vietnam-pro-100italic - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Be Vietnam Pro';
+    font-style: italic;
+    font-weight: 100;
+    src: url('../fonts/be-vietnam-pro-v11-latin-100italic.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* be-vietnam-pro-regular - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Be Vietnam Pro';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/be-vietnam-pro-v11-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* be-vietnam-pro-600 - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Be Vietnam Pro';
+    font-style: normal;
+    font-weight: 600;
+    src: url('../fonts/be-vietnam-pro-v11-latin-600.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* be-vietnam-pro-900 - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Be Vietnam Pro';
+    font-style: normal;
+    font-weight: 900;
+    src: url('../fonts/be-vietnam-pro-v11-latin-900.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+
+* {
+    margin: 0 auto;
+    font-family: 'Be Vietnam Pro';
+}
+
+
+body {
+    background-color: white;
+    margin: 0 auto;
+}
+
+h1, p{
+    text-align: center;
+    padding: 20px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+h1 {
+    font-weight: 900;
+}
+
+a {
+    text-decoration: none;
+    color: blue;
+}
+a:visited {
+    color: darkblue;
+}
+
+a:hover {
+    color: lightskyblue;
+}
+
+
+
+span {
+    font-family: 'Be Vietnam Pro';
+    font-weight: 900;
+
+}
+
+
+figcaption {
+    text-align: center;
+    padding: 10px 0;
+    font-style: italic;
+
+}
+
+h2 {
+    padding: 30px;
+    text-align: center;
+    font-weight: 600;
+}
+
+.bold {
+    font-style: bold;
+}
+
+
+
+.main-info {
+    background-color: #DCDCDC;
+    margin: 20px 20px 20px 20px;
+    border-radius: 10px;
+}
+
+
+li {
+    width: 1000px;
+}
+
+#img-div {
+    background-color: aliceblue;
+    width: 95%;
+}
+
+#image {
+    max-width: 70%;
+    max-height: 40%;
+    display: block;
+    margin: 0 auto;
+    padding-top: 30px;
+
+
+    
+
+}
+
+li {
+    padding: 10px 0;
+}
+
+.bold {
+    font-style: bold;
+}
+
+.border { 
+    border-top: 2px solid gray;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    max-width: 20%;
+}
+
+.quote { 
+    font-style: italic;
+    font-weight: 50;
+    padding-top; 10px;
+    padding-bottom; 10px;
+}
+
