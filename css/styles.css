@@ -121,7 +121,9 @@ li {
 #image {
     max-width: 70%;
     max-height: 40%;
-    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     margin: 0 auto;
     padding-top: 30px;
 
